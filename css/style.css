@@ -1,0 +1,457 @@
+/* ===== Open Sans + Raleway ===== */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;600;700;800;900&display=swap');
+
+/* ===== Global CSS ===== */
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+  font-family: 'Catamaran', sans-serif;
+  color: #3f3f3f;
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Catamaran', sans-serif;
+  color: #3f3f3f;
+}
+
+p {
+  color: #696969;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* ===== Navigation Menu ===== */
+header {
+  background: url(../img/banner-one.png) no-repeat center top;
+  background-size: cover;
+  padding: 30px 0px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 20px;
+  margin: 0px 3px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #ffa90a;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* ===== Banner Section ===== */
+.banner-section p {
+  margin: 470px 0 40px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.banner-section .btn-booking {
+  padding: 15px 25px;
+  background: #ff690f;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 200px;
+  transition: 0.4s ease-in-out;
+}
+
+.banner-section .btn-booking:hover {
+  background: #ffa90a;
+  color: #2e5386;
+}
+
+/* ===== Features Section ===== */
+.hero-section {
+  padding: 75px 0;
+  background: #f7f7f7;
+}
+
+.hero-section p {
+  margin: 0;
+  padding: 0px 230px;
+  text-align: center;
+}
+
+.features-options {
+  padding: 75px 0 0;
+}
+
+.features-options img {
+  margin: 20px auto;
+}
+
+.features-options p {
+  padding: 0;
+}
+
+.features-options h6 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+  width: 175px;
+  margin: 10px auto;
+}
+
+.features-options .btn-options {
+  padding: 15px 25px;
+  background: #ff690f;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  transition: 0.4s ease-in-out;
+}
+
+.features-options .btn-options:hover {
+  background: #ffa90a;
+  color: #2e5386;
+}
+
+/* Gallery Section */
+.gallery-section img {
+  display: inline;
+}
+
+/* ===== Crew Section ===== */
+.crew-section {
+  padding: 75px 0;
+  background: #f7f7f7;
+}
+
+.crew-section img {
+  margin: 15px auto;
+}
+
+.crew-section p {
+  padding: 0;
+  text-align: center;
+}
+
+.crew-section h6 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+  width: 175px;
+  margin: 10px auto;
+}
+
+/* ===== About Section ===== */
+.about-section {
+  background: url(../img/about.png) no-repeat center top;
+  background-size: cover;
+  padding: 200px 0;
+}
+
+.about-section-top h1 {
+  text-align: left;
+}
+
+.about-section-bottom h1 {
+  text-align: left;
+  margin: 0;
+  color: #ff690f;
+}
+
+.about-section-bottom h6 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* ===== Testimonials Section ===== */
+.testimonials-section {
+  padding: 75px 0;
+  background: #f7f7f7;
+}
+
+.owl-carousel .owl-item img {
+  width: auto;
+}
+
+.owl-carousel p {
+  margin: 40px 0;
+  padding: 0 275px;
+  text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #ff690f;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 17px;
+  height: 17px;
+  margin: 5px 4px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+  text-align: center;
+  z-index: 999;
+  position: relative;
+}
+
+.owl-dots button {
+  outline: none;
+}
+
+/* ===== Footer Section ===== */
+footer {
+  background: #2f2f2f;
+  padding: 75px 0 0;
+}
+
+footer h1 {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+footer li {
+  color: #fff;
+  margin: 10px 0;
+}
+
+footer .contact-icon {
+  text-align: right;
+  height: 25px;
+  padding: 3px 0;
+}
+
+footer .material-icons {
+  color: #fc6400;
+  font-size: 15px;
+}
+
+footer .contact_li {
+  padding: 0;
+}
+
+/* ===================
+Media Query For Mobile
+=================== */
+@media (min-width: 320px) and (max-width: 767px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  .navbar-light .navbar-toggler {
+    box-shadow: none;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .banner-section p {
+    margin: 230px 0 40px;
+  }
+
+  .banner-section .btn-booking {
+    margin-bottom: 55px;
+  }
+
+  .hero-section {
+    padding: 20px 0;
+  }
+
+  .hero-section p {
+    padding: 0;
+  }
+
+  .features-options {
+    padding: 20px 0;
+  }
+
+  .features-options img {
+    margin: 30px auto 20px;
+  }
+
+  .crew-section {
+    padding: 20px 0;
+  }
+
+  .about-section {
+    padding: 20px 0;
+  }
+
+  .about-section-top h1 {
+    text-align: center;
+  }
+
+  .about-section p {
+    text-align: center;
+  }
+
+  .about-section-bottom h1, h6 {
+    text-align: center;
+  }
+
+  .testimonials-section {
+    padding: 20px 0;
+    background: #f7f7f7;
+  }
+
+  .owl-carousel p {
+    padding: 0;
+    text-align: center;
+  }
+
+  footer {
+    padding: 20px 0 0;
+  }
+
+  footer .contact-icon, .contact_li {
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .about-section {
+    padding: 25px 53px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  .navbar-light .navbar-toggler {
+    box-shadow: none;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .banner-section p {
+    margin: 200px 0 40px;
+  }
+
+  .banner-section .btn-booking {
+    margin-bottom: 55px;
+  }
+
+  .hero-section {
+    padding: 50px 0;
+  }
+
+  .hero-section p {
+    padding: 0;
+  }
+
+  .features-options {
+    padding: 50px 0 0;
+  }
+
+  .crew-section {
+    padding: 50px 0;
+  }
+
+  .about-section {
+    padding: 50px 0;
+  }
+
+  .about-section-top h1 {
+    text-align: center;
+  }
+
+  .about-section p {
+    text-align: center;
+  }
+
+  .about-section-bottom h1, h6 {
+    text-align: center;
+  }
+
+  .testimonials-section {
+    padding: 50px 0;
+    background: #f7f7f7;
+  }
+
+  .owl-carousel p {
+    padding: 0px 185px;
+  }
+
+  footer {
+    background: #2f2f2f;
+    padding: 50px 0 0;
+  }
+
+  footer h1 {
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+
+  footer .contact_li {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .crew-section img {
+    width: 150px;
+  }
+
+  .about-section {
+    padding: 75px 0;
+  }
+
+  footer h1 {
+    font-size: 45px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .about-section {
+    padding: 100px 0;
+  }
+
+  footer h1 {
+    font-size: 50px;
+  }
+}
